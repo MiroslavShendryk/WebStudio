@@ -1,0 +1,25 @@
+.header {
+    background-color: #ececec;
+}
+.background-1 { 
+    background-color: #2F303A;
+}
+.title{ 
+    text-align: center;
+}
+.title-white{
+    text-align: center;
+    color: #FFFF;
+}
+.button{
+    margin: 0 auto;
+    display: block;
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.background-work{
+    background-color: #F5F4FA;
+}
+.work{
+    color: #757575;
+}
