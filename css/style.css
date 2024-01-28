@@ -23,3 +23,18 @@
 .work{
     color: #757575;
 }
+.header >nav >ul >li >a{ 
+    color:#212121
+}
+.header > ul > li > a {
+    color:#757575
+}
+.our-pluses > ul > li >p {
+    color:#757575
+}
+.background-1 > address > ul > li{
+    color:#FFFFFF
+}
+.background-1 > address > ul > li > a{ 
+    color:#757575
+}
