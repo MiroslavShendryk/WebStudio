@@ -1,40 +1,49 @@
+:root{
+    --header-color:#ECECEC;
+    --button-color:#2196F3;
+    --white-color:#FFFFFF;
+    --main-color:#2F303A;
+    --grey-color:#757575;
+    --title-work:#F5F4FA;
+    --link-color:#212121;
+}
 .header {
-    background-color: #ececec;
+    background-color: var(--header-color);
 }
 .background-1 { 
-    background-color: #2F303A;
-}
+   background-color:var(--main-color)
+}main
 .title{ 
     text-align: center;
 }
 .title-white{
     text-align: center;
-    color: #FFFFFF;
+    color:var(--white-color);
 }
 .button{
     margin: 0 auto;
     display: block;
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--white-color);
+    background-color:var(--button-color);
 }
 .background-work{
-    background-color: #F5F4FA;
+    background-color: var(--title-work);
 }
 .work{
-    color: #757575;
+    color: var(--grey-color);
 }
 .header >nav >ul >li >a{ 
     color:#212121
 }
 .header > ul > li > a {
-    color:#757575
+    color:var(--grey-color);
 }
 .our-pluses > ul > li >p {
-    color:#757575
+    color:var(--grey-color);
 }
 .background-1 > address > ul > li{
-    color:#FFFFFF
+    color:var(--white-color)
 }
 .background-1 > address > ul > li > a{ 
-    color:#757575
+    color:var(--grey-color);
 }
