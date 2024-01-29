@@ -15,6 +15,7 @@
 }main
 .title{ 
     text-align: center;
+    color:var(--link-color);
 }
 .title-white{
     text-align: center;
@@ -33,7 +34,7 @@
     color: var(--grey-color);
 }
 .header >nav >ul >li >a{ 
-    color:#212121
+    color:var(--link-color)
 }
 .header > ul > li > a {
     color:var(--grey-color);
@@ -46,4 +47,10 @@
 }
 .background-1 > address > ul > li > a{ 
     color:var(--grey-color);
+}
+.our-pluses > ul > li > h3 { 
+    color:var(--link-color);
+}
+.title > ul > li > p{
+    color: var(--link-color);
 }
