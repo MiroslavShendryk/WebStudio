@@ -10,28 +10,11 @@
 .header {
     background-color: var(--header-color);
 }
-.background-1 { 
-   background-color:var(--main-color)
-}main
-.title{ 
-    text-align: center;
-    color:var(--link-color);
-}
-.title-white{
-    text-align: center;
-    color:var(--white-color);
-}
 .button{
     margin: 0 auto;
     display: block;
     color: var(--white-color);
     background-color:var(--button-color);
-}
-.background-work{
-    background-color: var(--title-work);
-}
-.work{
-    color: var(--grey-color);
 }
 .header >nav >ul >li >a{ 
     color:var(--link-color)
@@ -42,24 +25,68 @@
 .our-pluses > ul > li >p {
     color:var(--grey-color);
 }
-.background-1 > address > ul > li{
-    color:var(--white-color)
-}
-.background-1 > address > ul > li > a{ 
-    color:var(--grey-color);
-}
 .our-pluses > ul > li > h3 { 
     color:var(--link-color);
-}
-.title > ul > li > p{
-    color: var(--link-color);
 }
 .header > ul > li > a:hover{
     color: var(--button-color)
 }
-.background-1 > address > ul > li > a:hover{
-    color: var(--button-color);
-}
 .header >nav >ul >li >a:hover{
     color: var(--button-color);
+}
+.main-section{
+    background-color:var(--main-color);
+}
+.main-section-h1{
+color:var(--white-color);    
+text-align: center;
+}
+.our-work-h3{
+    text-align: center;
+    color: var(--link-color);
+}
+.our-developers{
+    background-color: var(--title-work);
+}
+.our-developers-h3{
+    text-align: center;
+    color:var(--link-color);
+}
+li {
+    list-style-type: none;
+  }
+  
+  ul {
+    margin-left: 0;
+    padding-left: 0;
+  }
+.our-developers-ul-li-p{
+    color: var(--link-color);
+}
+.header-a-h2-span{
+    color:var(--button-color);
+}
+.header-a-h2{
+    color:#000000;
+}
+.header-a{ 
+        text-decoration: none;
+ }
+ .our-developers-ul-li-h4{
+    color: var(--grey-color);
+ }
+ .footer{
+    background-color: var(--main-color);
+ }
+ .footer-a{ 
+    text-decoration: none;
+}
+.footer-address-ul-li-1{
+    color:var(--white-color);
+}
+.footer-address-ul-li-a{
+    color: var(--grey-color);
+}
+.footer-address-ul-li-a:hover{
+    color: var(--button-color)
 }
