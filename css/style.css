@@ -6,6 +6,9 @@
     --grey-color:#757575;
     --title-work:#F5F4FA;
     --link-color:#212121;
+body {
+    font-weight:400
+}
 }
 .header {
     background-color: var(--header-color);
@@ -15,18 +18,36 @@
     display: block;
     color: var(--white-color);
     background-color:var(--button-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
 }
 .header >nav >ul >li >a{ 
-    color:var(--link-color)
+    color:var(--link-color);
+    font-family:"Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    
 }
 .header > ul > li > a {
     color:var(--grey-color);
+    text-decoration: none;
+    font-family:"Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
 }
 .our-pluses > ul > li >p {
     color:var(--grey-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
 }
 .our-pluses > ul > li > h3 { 
     color:var(--link-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
 }
 .header > ul > li > a:hover{
     color: var(--button-color)
@@ -40,10 +61,16 @@
 .main-section-h1{
 color:var(--white-color);    
 text-align: center;
+font-family:"Roboto", sans-serif;
+font-weight: 900;
+font-size: 44px;
 }
 .our-work-h3{
     text-align: center;
     color: var(--link-color);
+    font-family:"Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
 }
 .our-developers{
     background-color: var(--title-work);
@@ -51,6 +78,9 @@ text-align: center;
 .our-developers-h3{
     text-align: center;
     color:var(--link-color);
+    font-family:"Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
 }
 li {
     list-style-type: none;
@@ -62,18 +92,32 @@ li {
   }
 .our-developers-ul-li-p{
     color: var(--link-color);
+    font-family:"Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
 }
 .header-a-h2-span{
     color:var(--button-color);
+    font-family: "Raleway", sans-serif ;
+    font-weight: 700;
+    font-size: 26px;
 }
 .header-a-h2{
     color:#000000;
+    font-family: "Raleway", sans-serif ;
+    font-weight: 700;
+    font-size: 26px;
 }
 .header-a{ 
         text-decoration: none;
  }
  .our-developers-ul-li-h4{
     color: var(--grey-color);
+    font-family:"Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
  }
  .footer{
     background-color: var(--main-color);
@@ -83,10 +127,19 @@ li {
 }
 .footer-address-ul-li-1{
     color:var(--white-color);
+    font-family:"Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
 }
 .footer-address-ul-li-a{
     color: var(--grey-color);
+    text-decoration: none;
+    font-family:"Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
 }
 .footer-address-ul-li-a:hover{
     color: var(--button-color)
 }
+
