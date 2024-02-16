@@ -6,9 +6,6 @@
     --grey-color:#757575;
     --title-work:#F5F4FA;
     --link-color:#212121;
-body {
-    font-weight:400
-}
 }
 .header {
     background-color: var(--header-color);
