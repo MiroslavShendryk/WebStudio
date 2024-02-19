@@ -126,4 +126,13 @@ li {
 .footer-address-ul-li-a:hover{
     color: var(--button-color)
 }
-
+.footer-a-h2{
+    color:var(--white-color);
+     font-family: "Raleway", sans-serif ; ;
+    font-size: 26px;
+}
+.footer-a-h2-span{
+    color:var(--button-color);
+    font-family: "Raleway", sans-serif ;
+    font-size: 26px;
+}
