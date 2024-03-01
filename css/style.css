@@ -100,6 +100,8 @@ body {
 
 .main-section {
     background-color: var(--main-color);
+    padding-top: 200px;
+    padding-bottom: 280px;
 }
 
 .main-section-h1 {
@@ -108,6 +110,7 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    padding-bottom: 30px;
 }
 
 .button {
@@ -131,6 +134,13 @@ body {
 .our-pluses-ul-li-h3 {
     color: var(--link-color);
 }
+.our-pluses{
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
+.our-pluses-ul-li, .our-pluses-ul{
+    display: inline-block
+}
 
 /* our-work */
 
@@ -139,6 +149,7 @@ body {
     color: var(--link-color);
     font-size: 36px;
 }
+
 
 /* our-developers */
 .our-developers {
