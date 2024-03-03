@@ -139,7 +139,7 @@ body {
     padding-top: 94px;
 }
 .our-pluses-ul-li, .our-pluses-ul{
-    display: inline-block
+    display: inline-block;
 }
 
 /* our-work */
@@ -148,12 +148,29 @@ body {
     text-align: center;
     color: var(--link-color);
     font-size: 36px;
+    padding-bottom: 50px;
+}
+
+.our-work{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.our-work-ul-il,
+.our-work-ul
+{ 
+    display:flex;
+}
+.our-work-ul-li:nth-child(2){
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 
 /* our-developers */
 .our-developers {
     background-color: var(--title-work);
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .our-developers-h3 {
@@ -179,6 +196,8 @@ body {
 /* footer */
 .footer {
     background-color: var(--main-color);
+    padding-bottom: 60px;
+    padding-top: 60px;
 }
 
 .footer-address-ul-li-1 {
