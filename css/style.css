@@ -138,8 +138,9 @@ body {
     padding-bottom: 94px;
     padding-top: 94px;
 }
-.our-pluses-ul-li, .our-pluses-ul{
+.our-pluses-ul-li {
     display: inline-block;
+    width: 270px;
 }
 
 /* our-work */
@@ -155,10 +156,10 @@ body {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.our-work-ul-il,
-.our-work-ul
+.our-work-ul-li
 { 
-    display:flex;
+    display:inline-block;
+    width: 370px;
 }
 .our-work-ul-li:nth-child(2){
     padding-left: 30px;
@@ -178,6 +179,11 @@ body {
     color: var(--link-color);
     font-size: 36px;
 }
+.our-developers-ul-li{
+display: inline-block;
+width: 270px;
+}
+
 
 .our-developers-ul-li-p {
     color: var(--link-color);
