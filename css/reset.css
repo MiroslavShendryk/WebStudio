@@ -1,10 +1,10 @@
 /*! Reset styles */
 
-*,
+/* *,
 *::before,
 *::after {
     box-sizing: inherit;
-}
+} */
 
 body {
     margin: 0;
