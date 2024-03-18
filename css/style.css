@@ -29,7 +29,7 @@ body {
     padding-bottom: 25px;
 }
 .logo {
-    vertical-align: middle;
+    /* vertical-align: middle; */
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -64,7 +64,9 @@ body {
 .contacts-item,
 .header-nav-list,
 .logo {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    /* justify-content: baseline; */
 }
 .header-nav{
     margin-right: 340px;
@@ -79,28 +81,13 @@ body {
     text-decoration: none;
     font-weight: 500;
 }
-/* Варінат 1 */
-/* .header-nav-item{
-    margin-right: 50px;
-}
-.header-nav-item:last-child{
-    margin-right: 0;
-} */
-/* Варінт 2 */
-.header-nav-item:not(:last-child) {
-    margin-right: 46px;
-}  
-/* .header-nav-item:nth-child(2) {
-    margin-left: 50px;
-    margin-right: 50px;
-} */
 
-/* .header-nav-item:nth-child(3) {
-    margin-right: 344px;
-} */
+.header-nav-item:not(:last-child) {
+    margin-right: 50px;
+}  
 
 .contacts-item:nth-child(1) {
-    margin-right: 46px;
+    margin-right: 50px;
 }
 
 .header-ul-li-a:hover {
@@ -145,6 +132,11 @@ body {
     /* our-pluses */
 
 }
+/* .our-pluses-ul-li-h3,
+.our-pluses-ul-li{
+    display: flex;
+    
+} */
 
 .our-pluses-ul-li-p {
     color: var(--grey-color);
