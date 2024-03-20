@@ -9,6 +9,15 @@
     --color-dark: #000000;
 }
    
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    outline: 1px solid tomato;
+}
+
     body {
         font-size: 14px;
         font-family: "Roboto", sans-serif;
@@ -106,6 +115,11 @@
 
 }
 /* hero */
+.hero-items{
+    width: 370px;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /* footer */
 .footer {
