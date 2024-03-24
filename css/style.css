@@ -131,12 +131,7 @@ body {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
     /* our-pluses */
-
-/* .our-pluses-ul-li-h3,
-.our-pluses-ul-li{
-    display: flex;
     
-} */
 .our-pluses-ul{
     display: flex;
 }
@@ -157,7 +152,6 @@ body {
 }
 
 .our-pluses-ul-li {
-    /* display: inline-block; */
     width: 270px;
     vertical-align: top;
 }
@@ -190,10 +184,6 @@ body {
     width: 370px;
 }
 
-/* .our-work-ul-li:nth-child(2) {
-    padding-left: 30px;
-    padding-right: 30px;
-} */
 
 
 /* our-developers */
