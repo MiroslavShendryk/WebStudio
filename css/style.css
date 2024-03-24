@@ -28,9 +28,7 @@ body {
     padding-top: 24px;
     padding-bottom: 25px;
 }
-.logo {
-    /* vertical-align: middle; */
-}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -57,16 +55,13 @@ body {
     font-weight: 500;
     letter-spacing: 0.02em;
 }
-
-.header-nav,
 .header-contacts-list,
-.header-nav-item,
-.contacts-item,
-.header-nav-list,
-.logo {
-    display: inline-flex;
+.header-nav,
+.flex,
+.header-nav-list
+ {
+    display: flex;
     align-items: center;
-    /* justify-content: baseline; */
 }
 .header-nav{
     margin-right: 340px;
@@ -105,6 +100,11 @@ body {
 
 /* main-section */
 
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .main-section {
     background-color: var(--main-color);
     padding-top: 200px;
@@ -118,25 +118,28 @@ body {
     font-size: 44px;
     line-height: 1.36;
     padding-bottom: 30px;
+    width: 696px;
 }
 
 .button {
     margin: 0 auto;
-    display: flex;
     color: var(--white-color);
     background-color: var(--button-color);
     font-size: 16px;
     line-height: 1.87;
     border-radius: 8px;
-
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
     /* our-pluses */
 
-}
 /* .our-pluses-ul-li-h3,
 .our-pluses-ul-li{
     display: flex;
     
 } */
+.our-pluses-ul{
+    display: flex;
+}
 
 .our-pluses-ul-li-p {
     color: var(--grey-color);
@@ -146,6 +149,7 @@ body {
 
 .our-pluses-ul-li-h3 {
     color: var(--link-color);
+    margin-bottom: 10px;
 }
 
 .our-pluses {
@@ -153,7 +157,7 @@ body {
 }
 
 .our-pluses-ul-li {
-    display: inline-block;
+    /* display: inline-block; */
     width: 270px;
     vertical-align: top;
 }
@@ -163,15 +167,18 @@ body {
 }
 
 /* our-work */
+.our-work-ul{
+    display: flex;
+}
 .our-work-ul-li:not(:last-child){
-    margin-right: 26px;
+    margin-right: 30px;
 }
 
 .our-work-h3 {
     text-align: center;
     color: var(--link-color);
     font-size: 36px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .our-work {
@@ -180,7 +187,6 @@ body {
 }
 
 .our-work-ul-li {
-    display: inline-block;
     width: 370px;
 }
 
@@ -191,6 +197,9 @@ body {
 
 
 /* our-developers */
+.our-developers-ul{
+    display: flex;
+}
 .our-developers-ul-li-img{
     margin-bottom: 30px;
 }
@@ -214,7 +223,6 @@ body {
 }
 
 .our-developers-ul-li {
-    display: inline-block;
     width: 270px;
     text-align: center;
 }
