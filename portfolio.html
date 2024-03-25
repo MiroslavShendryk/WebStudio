@@ -13,19 +13,19 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/portfolio.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container flex">
             <nav class="header-nav">
                 <a class="logo">
                     Web<span class="logo-header">Studio</span>
                 </a>
                 <ul class="header-nav-list">
                     <li class="header-nav-item"><a class="header-nav-ul-li-a " href="./index.html">Студія</a></li>
-                    <li class="header-nav-item"><a class="header-nav-ul-li-a" href="./portfolio.html">Портфоліо</a></li>
+                    <li class="header-nav-item"><a class="header-nav-ul-li-a active-link" href="./portfolio.html">Портфоліо</a></li>
                     <li class="header-nav-item"><a class="header-nav-ul-li-a" href="./">Контакти</a></li>
                 </ul>
             </nav>
@@ -39,88 +39,98 @@
         </div>
     </header>
     <main>
-        <div class="container">
+
         <section class="hero">
-            <button class="button" type="button">
-                Усі
-            </button>
-            <button class="button" type="button">
-                Веб-сайти
-            </button>
-            <button class="button" type="button">
-                Додатки
-            </button>
-            <button class="button" type="button">
-                Дизайн
-            </button>
-            <button class="button" type="button">
-                Маркетинг
-            </button>
-            <ul class="hero-list">
-                <li class="hero-items">
-                    <img class="hero-img" src="./Images/laptop.jpg" alt="Технокряк" width="370px">
-                    <h4>Технокряк</h4>
-                    <p>Веб-сайт</p>
-                </li>
-                <li>
-                    <img src="./Images/basketball.jpg" alt="Постер New Orlean vs Golden Star" width="370px">
-                    <h4>Постер New Orlean vs Golden Star</h4>
-                    <p>Дизайн</p>
-                </li>
-                <li>
-                    <img src="./Images/shark.jpg" alt="Ресторан Seafood" width="370px">
-                    <h4>Ресторан Seafood</h4>
-                    <p>Додаток</p>
-                </li>
-                <li>
-                    <img src="./Images/headphones.jpg" alt="Проєкт Prime" width="370px">
-                    <h4>Проєкт Prime</h4>
-                    <p>Маркетинг</p>
-                </li>
-                <li>
-                    <img src="./Images/boxes.jpg" alt="Проєкт Boxes" width="370px">
-                    <h4>Проєкт Boxes</h4>
-                    <p>Додаток</p>
-                </li>
-                <li>
-                    <img src="./Images/computer.jpg" alt="Inspiration has no Borders" width="370px">
-                    <h4>Inspiration has no Borders</h4>
-                    <p>Веб-сайт</p>
-                </li>
-                <li>
-                    <img src="./Images/magazin.jpg" alt="Видання Limited Edition" width="370px">
-                    <h4>Видання Limited Edition</h4>
-                    <p>Дизайн</p>
-                </li>
-                <li>
-                    <img src="./Images/tag.jpg" alt="Проєкт LAB" width="370px">
-                    <h4>Проєкт LAB</h4>
-                    <p>Маркетинг</p>
-                </li>
-                <li>
-                    <img src="./Images/laptop2.jpg" alt="Growing Business" width="370px">
-                    <h4>Growing Business</h4>
-                    <p>Додаток</p>
-                </li>
+            <div class="container flex-column">
+                <ul class="hero-list">
+                    <li class="button-item"><button class="hero-button" type="button">
+                            Усі
+                        </button>
+                    </li>
+                    <li class="button-item"><button class="hero-button" type="button">
+                            Веб-сайти
+                        </button>
+                    </li>
+                    <li class="button-item"><button class="-hero-button" type="button">
+                            Додатки
+                        </button></li>
 
-            </ul>
+                    <li class="button-item"><button class="hero-button" type="button">
+                            Дизайн
+                        </button>
+                    </li>
+                    <li class="button-item"></li><button class="hero-button" type="button">
+                        Маркетинг
+                    </button>
+                    </li>
+                </ul>
+                <ul class="hero-list">
+                    <li class="hero-items">
+                        <img class="hero-img" src="./Images/laptop.jpg" alt="Технокряк" width="370px">
+                        <h4>Технокряк</h4>
+                        <p>Веб-сайт</p>
+                    </li>
+                    <li>
+                        <img src="./Images/basketball.jpg" alt="Постер New Orlean vs Golden Star" width="370px">
+                        <h4>Постер New Orlean vs Golden Star</h4>
+                        <p>Дизайн</p>
+                    </li>
+                    <li>
+                        <img src="./Images/shark.jpg" alt="Ресторан Seafood" width="370px">
+                        <h4>Ресторан Seafood</h4>
+                        <p>Додаток</p>
+                    </li>
+                    <li>
+                        <img src="./Images/headphones.jpg" alt="Проєкт Prime" width="370px">
+                        <h4>Проєкт Prime</h4>
+                        <p>Маркетинг</p>
+                    </li>
+                    <li>
+                        <img src="./Images/boxes.jpg" alt="Проєкт Boxes" width="370px">
+                        <h4>Проєкт Boxes</h4>
+                        <p>Додаток</p>
+                    </li>
+                    <li>
+                        <img src="./Images/computer.jpg" alt="Inspiration has no Borders" width="370px">
+                        <h4>Inspiration has no Borders</h4>
+                        <p>Веб-сайт</p>
+                    </li>
+                    <li>
+                        <img src="./Images/magazin.jpg" alt="Видання Limited Edition" width="370px">
+                        <h4>Видання Limited Edition</h4>
+                        <p>Дизайн</p>
+                    </li>
+                    <li>
+                        <img src="./Images/tag.jpg" alt="Проєкт LAB" width="370px">
+                        <h4>Проєкт LAB</h4>
+                        <p>Маркетинг</p>
+                    </li>
+                    <li>
+                        <img src="./Images/laptop2.jpg" alt="Growing Business" width="370px">
+                        <h4>Growing Business</h4>
+                        <p>Додаток</p>
+                    </li>
 
+                </ul>
+            </div>
         </section>
-    </div>
+
     </main>
     <footer class="footer">
         <div class="container">
             <a class="logo-footer">
                 Web<span class="logo-footer-span">Studio</span>
-                </a>
-        <address class="footer-address">
-            <ul class="footer-address-ul">
-                <li class="footer-address-ul-li-1">м. Київ, пр-т Лесі Українки, 26</li>
-                <li class="footer-address-ul-li"> <a class="footer-address-ul-li-a" href="mailto:info@devstudio.com"> info@devstudio.com</a></li>
-                <li class="footer-address-ul-li"> <a class="footer-address-ul-li-a" href="tel:+380961111111"> +38 096 111 11 11 </a></li>
-            </ul>
-        </address>
-    </div>
+            </a>
+            <address class="footer-address">
+                <ul class="footer-address-ul">
+                    <li class="footer-address-ul-li-1">м. Київ, пр-т Лесі Українки, 26</li>
+                    <li class="footer-address-ul-li"> <a class="footer-address-ul-li-a"
+                            href="mailto:info@devstudio.com"> info@devstudio.com</a></li>
+                    <li class="footer-address-ul-li"> <a class="footer-address-ul-li-a" href="tel:+380961111111"> +38
+                            096 111 11 11 </a></li>
+                </ul>
+            </address>
+        </div>
     </footer>
 </body>
 

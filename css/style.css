@@ -7,6 +7,7 @@
     --title-work: #F5F4FA;
     --link-color: #212121;
     --color-dark: #000000;
+    --buttom-active:#188CE8;
 }
 
 body {
@@ -35,7 +36,7 @@ body {
     font-size: 26px;
     letter-spacing: 0.03em;
     color: var(--button-color);
-    margin-right: 89px;
+    margin-right: 93px;
 }
 
 .logo-header {
@@ -64,9 +65,11 @@ body {
     align-items: center;
 }
 .header-nav{
-    margin-right: 340px;
+    margin-right: 344px;
 }
-
+.active-link{
+    color: var(--button-color)
+}
 .header-ul-li-a:hover {
     color: var(--button-color)
 }
@@ -117,18 +120,22 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
     width: 696px;
 }
 
 .button {
-    margin: 0 auto;
     color: var(--white-color);
     background-color: var(--button-color);
     font-size: 16px;
     line-height: 1.87;
     border-radius: 8px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    padding: 10px 32px;
+    border: none;
+}
+.button:active{
+    background-color: var(--buttom-active);
 }
     /* our-pluses */
     
@@ -157,7 +164,7 @@ body {
 }
 .our-pluses-ul-li:not(:last-child)
 {
- margin-right: 26px;
+ margin-right: 30px;
 }
 
 /* our-work */
@@ -195,7 +202,7 @@ body {
 }
 
 .our-developers-ul-li:not(:last-child){
-    margin-right: 26px;
+    margin-right: 30px;
     
 }
 
@@ -215,6 +222,7 @@ body {
 .our-developers-ul-li {
     width: 270px;
     text-align: center;
+    padding-bottom: 30px;
 }
 
 
@@ -230,9 +238,6 @@ body {
     color: var(--grey-color);
     font-weight: 400;
     font-size: 16px;
-    margin-bottom: 30px;
-
-
 }
 
 /* footer */
@@ -247,7 +252,7 @@ body {
     font-weight: 400;
     line-height: 1.71;
     font-style: normal;
-    -bottom: 9px;
+    margin-bottom: 9px;
 }
 
 .footer-address-ul-li-a {
@@ -265,7 +270,6 @@ body {
 
 .logo-footer-span{
     color: var(--white-color);
-    margin-bottom: 20px;
 }
 .logo-footer{
     font-family: "Raleway", sans-serif;
@@ -274,8 +278,9 @@ body {
     letter-spacing: 0.03em;
     color: var(--button-color);
     margin-bottom: 20px;
-
+    display: inline-block;
 }
 .footer-address-ul-li:not(:last-child){
     margin-bottom: 9px;
 }
+         /* PORTFOLIO CSS!!! */
