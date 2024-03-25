@@ -78,25 +78,11 @@
     text-decoration: none;
     font-weight: 500;
 }
-/* Варінат 1 */
-/* .header-nav-item{
-    margin-right: 50px;
-}
-.header-nav-item:last-child{
-    margin-right: 0;
-} */
-/* Варінт 2 */
+
 .header-nav-item:not(:last-child) {
     margin-right: 46px;
 }  
-/* .header-nav-item:nth-child(2) {
-    margin-left: 50px;
-    margin-right: 50px;
-} */
 
-/* .header-nav-item:nth-child(3) {
-    margin-right: 344px;
-} */
 
 .contacts-item:nth-child(1) {
     margin-right: 46px;
@@ -115,7 +101,7 @@
 
 }
 /* hero */
-.hero-items{
+.hero-list{
     width: 370px;
     display: flex;
     flex-wrap: wrap;
