@@ -284,3 +284,23 @@ body {
     margin-bottom: 9px;
 }
          /* PORTFOLIO CSS!!! */
+
+.button-list,
+.portfolio-list
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio-item{
+    width: 370px;
+}        
+.portfolio{
+    padding-top: 75px;
+    padding-bottom: 94px;?
+}
+.button-item{
+    margin-right:8px ;
+}
+.portfolio-button{
+    padding: 6px 25px;
+}
