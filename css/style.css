@@ -379,6 +379,7 @@ body {
     line-height: 200%;
     letter-spacing: 0.06em;
     color: var(--link-color);
+    padding-left: 24px;
 }
 
 .portfolio-text {
@@ -388,4 +389,5 @@ body {
     line-height: 187%;
     letter-spacing: 0.03em;
     color: var(--grey-color);
+    padding-left: 24px;
 }
