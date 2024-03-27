@@ -301,6 +301,10 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+.button-list{
+    margin-bottom: 34px;
+    padding-bottom: 26px;
+}
 
 .portfolio-item {
     width: 370px;
@@ -310,7 +314,7 @@ body {
 .portfolio {
     padding-top: 75px;
     padding-bottom: 94px;
-    ?
+    
 }
 
 .button-item {
@@ -324,13 +328,12 @@ body {
     line-height: 162%;
     letter-spacing: 0.03em;
     text-align: center;
-    margin-bottom: 50px;
     color: var(--link-color);
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     border: none;
 }
 .portfolio-button:active{
     background-color: var(--buttom-active);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 .portfolio-item:nth-child(1) {
     margin-right: 30px;
