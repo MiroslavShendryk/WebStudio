@@ -8,6 +8,7 @@
     --link-color: #212121;
     --color-dark: #000000;
     --buttom-active: #188CE8;
+    --border-color: #eeeeee;
 }
 
 body {
@@ -165,10 +166,34 @@ body {
 }
 
 .our-pluses-ul-li {
-    width: 270px;
+    flex-basis: 270px;
     vertical-align: top;
+    
+}
+.our-pluses-ul-li::before{
+    content:"";
+    /* background-image:url(../Images/antenna.png); */
+    height: 120px;
+    background-color: var(--title-work);
+    display: block;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius:4px;
+}
+.our-pluses-ul-li:nth-child(1)::before{
+background-image:url(../Images/antenna.png);
 }
 
+.our-pluses-ul-li:nth-child(2)::before{
+    background-image:url(../Images/clock.png);
+}
+.our-pluses-ul-li:nth-child(3)::before{
+    background-image:url(../Images/diagram.png);
+}
+.our-pluses-ul-li:nth-child(4)::before{
+    background-image:url(../Images/astronaut.png);
+}
 .our-pluses-ul-li:not(:last-child) {
     margin-right: 30px;
 }
@@ -204,7 +229,14 @@ body {
 .our-developers-ul {
     display: flex;
 }
-
+.our-developers-ul-li{
+background-color: var(--white-color);
+border-radius: 0 0 4px 4px; 
+box-shadow: 
+        0 2px 1px 0 rgba(0, 0, 0, 0.2), 
+        0 1px 1px 0 rgba(0, 0, 0, 0.14), 
+        0 1px 3px 0 rgba(0, 0, 0, 0.12);
+}
 .our-developers-ul-li-img {
     margin-bottom: 30px;
 }
@@ -296,31 +328,16 @@ body {
 
 /* PORTFOLIO CSS!!! */
 
-.button-list,
-.portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
-}
 .button-list{
     margin-bottom: 34px;
     padding-bottom: 26px;
-}
-
-.portfolio-item {
-    width: 370px;
-    outline: 1px solid tomato;
-}
-
-.portfolio {
-    padding-top: 75px;
-    padding-bottom: 94px;
+    display: flex;
+    gap: 8px;
     
 }
-
-.button-item {
+/* .button-item {
     margin-right: 8px;
-}
-
+} */
 .portfolio-button {
     padding: 6px 25px;
     font-weight: 500;
@@ -330,50 +347,50 @@ body {
     text-align: center;
     color: var(--link-color);
     border: none;
+    border-radius: 4px;
 }
 .portfolio-button:active{
     background-color: var(--buttom-active);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    color: var(--title-work);
 }
-.portfolio-item:nth-child(1) {
-    margin-right: 30px;
-    margin-bottom: 50px;
-}
-
-.portfolio-item:nth-child(2) {
-    margin-right: 30px;
-    margin-bottom: 50px;
-}
-
-.portfolio-item:nth-child(4) {
-    margin-right: 30px;
-    margin-bottom: 50px;
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    /* column-gap: 30px;
+    row-gap: 60px; */
 }
 
-.portfolio-item:nth-child(5) {
-    margin-right: 30px;
-    margin-bottom: 50px;
+.portfolio-item {
+    display: flex;
+    flex-direction: column;
+    /* width: 370px; */
+    flex-basis: calc((100% - 60px) / 3);
+    /* outline: 1px solid tomato; */
+    /* border: 1px solid var(--border-color);
+    border: 1px solid red; */
+}
+.portfolio-item:hover{
+    box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
+.text-box{
+    padding: 20px 24px;
+    border-right:1px solid var(--border-color);
+    border-left:1px solid var(--border-color) ;
+    border-bottom:1px solid var(--border-color) ;
+    flex-grow: 1;
 }
 
-.portfolio-item:nth-child(7) {
-    margin-right: 30px;
+.portfolio {
+    padding-top: 75px;
+    padding-bottom: 94px;
+    
 }
 
-.portfolio-item:nth-child(8) {
-    margin-right: 30px;
-}
-
-.portfolio-item:nth-child(3) {
-    margin-bottom: 50px;
-}
-
-.portfolio-item:nth-child(6) {
-    margin-bottom: 50px;
-}
-
-.portfolio-img {
+/* .portfolio-img {
     margin-bottom: 20px;
-}
+} */
 
 .portfolio-paragraph {
     margin-bottom: 4px;
@@ -382,7 +399,7 @@ body {
     line-height: 200%;
     letter-spacing: 0.06em;
     color: var(--link-color);
-    padding-left: 24px;
+    /* padding-left: 24px; */
 }
 
 .portfolio-text {
@@ -392,5 +409,5 @@ body {
     line-height: 187%;
     letter-spacing: 0.03em;
     color: var(--grey-color);
-    padding-left: 24px;
+    /* padding-left: 24px; */
 }
