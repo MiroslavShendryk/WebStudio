@@ -367,7 +367,7 @@ box-shadow:
     flex-direction: column;
     /* width: 370px; */
     flex-basis: calc((100% - 60px) / 3);
-    /* outline: 1px solid tomato; */
+    outline: 1px solid tomato;
     /* border: 1px solid var(--border-color);
     border: 1px solid red; */
 }
@@ -410,4 +410,13 @@ box-shadow:
     letter-spacing: 0.03em;
     color: var(--grey-color);
     /* padding-left: 24px; */
+}
+.overley{
+    width: 1200;
+  background-image:
+   linear-gradient(
+    rgba(47, 48, 58, 0.4)
+    ),
+    url(../Images/main-background.jpg);
+    background-position: center;
 }
