@@ -117,6 +117,9 @@ body {
     background-color: var(--main-color);
     padding-top: 200px;
     padding-bottom: 200px;
+    background-image: 
+    linear-gradient(rgba(47, 48, 58, 0.4)),
+    url(../Images/main-background.jpg);
 }
 
 .main-section-h1 {
@@ -410,13 +413,4 @@ box-shadow:
     letter-spacing: 0.03em;
     color: var(--grey-color);
     /* padding-left: 24px; */
-}
-.overley{
-    width: 1200;
-  background-image:
-   linear-gradient(
-    rgba(47, 48, 58, 0.4)
-    ),
-    url(../Images/main-background.jpg);
-    background-position: center;
 }
