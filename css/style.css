@@ -117,9 +117,10 @@ body {
     background-color: var(--main-color);
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: 
-    linear-gradient(rgba(47, 48, 58, 0.4)),
-    url(../Images/main-background.jpg);
+    background: 
+    linear-gradient( to right,(47, 48, 58, 0.4),
+                    to left,(47, 48, 58, 0.4));
+ background-image: url(../Images/main-background.jpg);
 }
 
 .main-section-h1 {
