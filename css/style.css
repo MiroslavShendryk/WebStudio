@@ -15,12 +15,17 @@ body {
     font-size: 14px;
     font-family: "Roboto", sans-serif;
 }
+.main-container {
+    width: 1600px;
+    margin: 0 auto;
+    outline: 1px solid green;
+}
 
 .container {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    outline: 1px solid tomato;
+    /* outline: 1px solid tomato; */
 }
 
 /* header */
@@ -386,7 +391,7 @@ body {
     flex-direction: column;
     /* width: 370px; */
     flex-basis: calc((100% - 60px) / 3);
-    outline: 1px solid tomato;
+    /* outline: 1px solid tomato; */
     /* border: 1px solid var(--border-color);
     border: 1px solid red; */
 }
