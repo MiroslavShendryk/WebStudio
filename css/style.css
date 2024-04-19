@@ -190,7 +190,7 @@ body {
     /* background-image:url(../Images/antenna.png); */
     height: 120px;
     background-color: var(--title-work);
-    display: block;
+    display: block; 
     margin-bottom: 30px;
     background-repeat: no-repeat;
     background-position: center;
