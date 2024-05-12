@@ -198,19 +198,19 @@ body {
 }
 
 .our-pluses-ul-li:nth-child(1)::before {
-    background-image: url(../Images/antenna.png);
+    background-image: url(.../d);
 }
 
 .our-pluses-ul-li:nth-child(2)::before {
-    background-image: url(../Images/clock.png);
+    background-image: url(../Images/clock.svg);
 }
 
 .our-pluses-ul-li:nth-child(3)::before {
-    background-image: url(../Images/diagram.png);
+    background-image: url(../Images/diagram.svg);
 }
 
 .our-pluses-ul-li:nth-child(4)::before {
-    background-image: url(../Images/astronaut.png);
+    background-image: url(../Images/astronaut.svg);
 }
 
 .our-pluses-ul-li:not(:last-child) {
