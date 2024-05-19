@@ -65,7 +65,9 @@ body {
     gap: 10px;
     fill: #757575;
 }
-
+.svg-header{
+    margin-top: 2px; 
+}
 .header-contacts-list,
 .header-nav,
 .flex,
@@ -99,7 +101,7 @@ body {
 }
 
 .contacts-item:nth-child(1) {
-    margin-right: 50px;
+    margin-right: 30px;
 }
 
 .header-ul-li-a:hover {
@@ -253,7 +255,11 @@ body {
 .our-developers-ul {
     display: flex;
 }
-
+.our-developers-link{
+    display: flex;
+    fill: #AFB1B8;
+    gap: 10px;
+}
 .our-developers-ul-li {
     background-color: var(--white-color);
     border-radius: 0 0 4px 4px;
@@ -304,6 +310,7 @@ body {
     color: var(--grey-color);
     font-weight: 400;
     font-size: 16px;
+    margin-bottom: 16px;
 }
 
 /* footer */
