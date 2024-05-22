@@ -252,6 +252,10 @@ body {
 
 
 /* our-developers */
+.our-developers-svg-list{
+    display: flex;
+    justify-content: center;
+}
 .svg-list-developers{
     display: flex;
 }
