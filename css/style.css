@@ -255,17 +255,17 @@ body {
 .our-developers-svg-list{
     display: flex;
     justify-content: center;
+    gap: 10px;
 }
 .svg-list-developers{
     display: flex;
+
 }
 .our-developers-ul {
     display: flex;
 }
 .our-developers-link{
-    /* display: flex; */
     fill: #AFB1B8;
-    /* gap: 10px; */
 }
 .our-developers-ul-li {
     background-color: var(--white-color);
