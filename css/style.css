@@ -388,7 +388,8 @@ body {
     padding-bottom: 60px;
     padding-top: 60px;
 }
-
+.div-footer{display: flex;
+flex-direction: column;}
 .footer-address-ul-li-1 {
     color: var(--white-color);
     font-weight: 400;
@@ -427,7 +428,12 @@ body {
 .footer-address-ul-li:not(:last-child) {
     margin-bottom: 9px;
 }
-
+.follow{
+    display: flex;
+    /* flex-direction: column; */
+    margin-left: 70px;
+    margin-bottom:40px ;
+}
 .follow-title {
     font-family: var(--font-family);
     font-weight: 700;
@@ -444,6 +450,7 @@ body {
 }
 
 .follow-item {
+    display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
