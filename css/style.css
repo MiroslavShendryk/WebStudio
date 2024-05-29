@@ -383,13 +383,18 @@ body {
 
 
 /* footer */
+.footer-flex{
+    display: flex;
+}
 .footer {
     background-color: var(--main-color);
     padding-bottom: 60px;
     padding-top: 60px;
 }
-.div-footer{display: flex;
-flex-direction: column;}
+.footer-address .footer-address-ul .footer-address-ul-li-1 .footer-address-ul-li {
+    display: flex;
+    flex-direction: column;
+}
 .footer-address-ul-li-1 {
     color: var(--white-color);
     font-weight: 400;
@@ -428,11 +433,14 @@ flex-direction: column;}
 .footer-address-ul-li:not(:last-child) {
     margin-bottom: 9px;
 }
+.div-footer{
+    display: flex;
+    flex-direction: column;
+}
 .follow{
     display: flex;
-    /* flex-direction: column; */
     margin-left: 70px;
-    margin-bottom:40px ;
+    flex-direction: column;
 }
 .follow-title {
     font-family: var(--font-family);
@@ -440,21 +448,21 @@ flex-direction: column;}
     font-size: 14px;
     letter-spacing: 0.03em;
     color: #fff;
+    margin-bottom: 20px;
 }
 
 .follow-list {
     display: flex;
-    justify-content: center;
-    margin-right: 70px;
+    /* justify-content: center; */
     gap: 10px;
 }
 
 .follow-item {
-    display: flex;
-    text-align: center;
+    /* text-align: center;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     border-radius: 50%;
+    display: flex;
 }
 
 .follow-link {
