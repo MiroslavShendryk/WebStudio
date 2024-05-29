@@ -475,6 +475,10 @@ body {
     fill: #FFFFFF;
     background-color: rgba(255, 255, 255, 0.1);
 }
+.follow-link:hover{
+    fill: #ffffff;
+    background-color: var(--button-color);
+}
 
 /* PORTFOLIO CSS!!! */
 
