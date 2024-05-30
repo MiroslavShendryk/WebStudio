@@ -257,12 +257,17 @@ body {
 
 
 /* our-developers */
+.our-developers-link{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .svg-list-developers:hover .our-developers-link {
     fill: #FFFFFF;
     border-radius: 50%;
     background-color: var(--button-color);
-    width: 44px;
-    width: 44px;
 }
 
 .our-developers-svg-list {
