@@ -87,13 +87,10 @@ body {
 
 .contacts-item:hover .header-ul-li-a {
     fill: var(--button-color);
-}
-
-.active-link {
     color: var(--button-color)
 }
 
-.header-ul-li-a:hover {
+.active-link {
     color: var(--button-color)
 }
 
@@ -101,6 +98,11 @@ body {
     color: var(--grey-color);
     text-decoration: none;
     font-weight: 500;
+/* анімація */
+transition-property: color, fill;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-delay: 0;
 }
 
 .header-nav-item:not(:last-child) {
@@ -230,7 +232,7 @@ body {
 }
 
 /* our-work */
-.our-work-title{
+.our-work-title {
     position: absolute;
     background: rgba(47, 48, 58, 0.8);
     width: 100%;
@@ -245,6 +247,7 @@ body {
     left: 0;
     color: #FFFFFF;
 }
+
 .our-work-ul {
     display: flex;
 }
@@ -273,13 +276,14 @@ body {
 
 
 /* our-developers */
-.our-developers-link{
+.our-developers-link {
     width: 44px;
     height: 44px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .svg-list-developers:hover .our-developers-link {
     fill: #FFFFFF;
     border-radius: 50%;
@@ -404,18 +408,21 @@ body {
 
 
 /* footer */
-.footer-flex{
+.footer-flex {
     display: flex;
 }
+
 .footer {
     background-color: var(--main-color);
     padding-bottom: 60px;
     padding-top: 60px;
 }
+
 .footer-address .footer-address-ul .footer-address-ul-li-1 .footer-address-ul-li {
     display: flex;
     flex-direction: column;
 }
+
 .footer-address-ul-li-1 {
     color: var(--white-color);
     font-weight: 400;
@@ -454,15 +461,18 @@ body {
 .footer-address-ul-li:not(:last-child) {
     margin-bottom: 9px;
 }
-.div-footer{
+
+.div-footer {
     display: flex;
     flex-direction: column;
 }
-.follow{
+
+.follow {
     display: flex;
     margin-left: 70px;
     flex-direction: column;
 }
+
 .follow-title {
     font-family: var(--font-family);
     font-weight: 700;
@@ -496,7 +506,8 @@ body {
     fill: #FFFFFF;
     background-color: rgba(255, 255, 255, 0.1);
 }
-.follow-link:hover{
+
+.follow-link:hover {
     fill: #ffffff;
     background-color: var(--button-color);
 }
