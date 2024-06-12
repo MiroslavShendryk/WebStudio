@@ -100,7 +100,7 @@ body {
     font-weight: 500;
 /* анімація */
 transition-property: color, fill;
-transition-duration: 250ms;G33T-MLN6-UZ4L-T826
+transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 transition-delay: 0;
 }
