@@ -524,6 +524,11 @@ z-index: 2;
   overflow-y: auto;
   background-color: rgba(0, 0, 0, 0.2);
 }
+.is-hidden{
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+}
 .modal{
 position: relative;
   top: 50%;
@@ -532,6 +537,10 @@ position: relative;
   padding: 40px;
   border-radius: 4px;
   background-color: #FFFFFF;
+  transform: translate(-50%, -50%);
+}
+.no-scroll{
+    overflow: hidden;
 }
 .modal-close-btn{
     position: absolute;
