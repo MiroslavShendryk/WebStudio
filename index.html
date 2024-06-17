@@ -96,16 +96,16 @@
                         <li class="our-work-ul-li">
                             <img class="our-work-ul-li-img" src="./Images/work1.jpg" alt="Робота за комп'ютером"
                                 width="370" />
-                                <h3 class="our-work-title">Десктопні додатки</h3>
+                            <h3 class="our-work-title">Десктопні додатки</h3>
                         </li>
                         <li class="our-work-ul-li"> <img class="our-work-ul-li-img" src="./Images/work2.jpg"
                                 alt="Робота за Телефоном" width="370" />
-                                <h3 class="our-work-title">Мобільні додатки</h3>
+                            <h3 class="our-work-title">Мобільні додатки</h3>
                         </li>
                         <li class="our-work-ul-li">
                             <img class="our-work-ul-li-img" src="./Images/work3.jpg" alt="Робота за Планшетом"
                                 width="370" />
-                                <h3 class="our-work-title">Дизайнерські рішення</h3>
+                            <h3 class="our-work-title">Дизайнерські рішення</h3>
                         </li>
                     </ul>
                 </div>
@@ -273,31 +273,46 @@
                         </ul>
                     </address>
                 </div>
-                    <div class="follow">
-                        <h2 class="follow-title">ПРИЄДНУЙТЕСЬ</h2>
-                        <ul class="follow-list">
-                            <li class="follow-item">
-                                <a href="./" class="follow-link"> <svg width="20" height="20">
-                                        <use href="./Images/symboldefs.svg#instagram"></use>
-                                    </svg></a>
-                            </li>
-                            <li class="follow-item">
-                                <a href="./" class="follow-link"><svg width="20" height="20">
-                                        <use href="./Images/symboldefs.svg#twitter"></use>
-                                    </svg></a>
-                            </li>
-                            <li class="follow-item">
-                                <a href="./" class="follow-link"><svg width="20" height="20">
-                                        <use href="./Images/symboldefs.svg#facebook"></use>
-                                    </svg></a>
-                            </li>
-                            <li class="follow-item">
-                                <a href="./" class="follow-link"> <svg width="20" height="20">
-                                        <use href="./Images/symboldefs.svg#linkedin"></use>
-                                    </svg></a>
-                            </li>
-                        </ul>
+                <div class="follow">
+                    <h2 class="follow-title">ПРИЄДНУЙТЕСЬ</h2>
+                    <ul class="follow-list">
+                        <li class="follow-item">
+                            <a href="./" class="follow-link"> <svg width="20" height="20">
+                                    <use href="./Images/symboldefs.svg#instagram"></use>
+                                </svg></a>
+                        </li>
+                        <li class="follow-item">
+                            <a href="./" class="follow-link"><svg width="20" height="20">
+                                    <use href="./Images/symboldefs.svg#twitter"></use>
+                                </svg></a>
+                        </li>
+                        <li class="follow-item">
+                            <a href="./" class="follow-link"><svg width="20" height="20">
+                                    <use href="./Images/symboldefs.svg#facebook"></use>
+                                </svg></a>
+                        </li>
+                        <li class="follow-item">
+                            <a href="./" class="follow-link"> <svg width="20" height="20">
+                                    <use href="./Images/symboldefs.svg#linkedin"></use>
+                                </svg></a>
+                        </li>
+                    </ul>
+                </div>
+                <form class="newsletter">
+                    <h2 class="footer-title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h2>
+
+                    <div class="newsletter-box">
+                        <input class="newsletter-email" required="" type="email" name="email" placeholder="E-mail">
+
+                        <button class="btn newsletter-btn" type="submit">
+                            <span class="newsletter-title">
+                                Підписатися</span>
+                            <svg width="24" height="24">
+                                <use href="./Images/symboldefs.svg#iconsend"></use> 
+                            </svg>
+                        </button>
                     </div>
+                </form>
             </div>
         </footer>
     </div>
@@ -305,7 +320,7 @@
         <div class="modal">
             <button class="modal-close-btn" data-modal-close type="button">
                 <svg class="modal-icon" width="11" height="11" aria-label="close">
-                    <use href="./"></use>
+                    <use href="./Images/symboldefs.svg#cross"></use>
                 </svg>
             </button>
 
@@ -314,47 +329,51 @@
                 <div class="form-div">
                     <label class="form-label" for="name">Ім'я</label>
                     <input class="form-input form-required" type="text" required="" name="name" id="name" autofocus="">
-                    <svg class="form__icon" width="18" height="18">
-                        <use href="."></use>
+                    <svg class="form-icon" width="18" height="18">
+                        <use href="./Images/symboldefs.svg#user"></use>
                     </svg>
                 </div>
                 <div class="form-div">
                     <label class="form-label" for="tel">Телефон</label>
-                    <input class="form-input form-required" type="tel"  required=""  name="tel" id="tel">
+                    <input class="form-input form-required" type="tel" required="" name="tel" id="tel">
                     <svg class="form-icon" width="18" height="18">
-                        <use href="./"></use>
+                        <use href="./Images/symboldefs.svg#phoneform"></use>
                     </svg>
                 </div>
 
                 <div class="form-div">
                     <label class="form-label" for="mail">Пошта</label>
                     <input class="form-input form-required" type="email" required="" name="email" id="mail">
-                    <svg class="form__icon" width="18" height="18">
-                        <use href="./"></use>
+                    <svg class="form-icon" width="18" height="18">
+                        <use href="./Images/symboldefs.svg#emailform"></use>
                     </svg>
                 </div>
 
                 <div class="form-div">
                     <label class="form-label" for="comment">Коментар</label>
-                    <textarea class="form-input form-comment" name="comment" id="comment" rows="8" placeholder="Enter text"></textarea>
+                    <textarea class="form-input form-comment" placeholder="Ведіть текст" name="comment" id="comment"
+                        rows="8" placeholder="Enter text"></textarea>
                 </div>
 
                 <div class="form-div">
                     <label class="form-polity-label" for="policy">
-                        <input class="visually-hidden form__checkbox" required="" type="checkbox" name="policy" id="policy">
-                        <span class="form__icon--check">
+                        <input class="visually-hidden form-checkbox" required="" type="checkbox" name="policy"
+                            id="policy">
+                        <span class="form-icon-check">
                             <svg width="16" height="15">
                                 <use href="./"></use>
                             </svg>
                         </span>
 
-                        <span>Lorem ipsum dolor sit amet consectetur
-                            <a class="form__link" href="">Adipisicing elit</a>
+                        <span> Погоджуюся з розсилкою та приймаю
+                            <a class="form-link" href="./">
+                                Умови договору
+                            </a>
                         </span>
                     </label>
 
-                    <button class="btn form__send" data-modal-open="" type="submit">
-                        Send
+                    <button class="btn form-send" data-modal-open="" type="submit">
+                        Відправити
                     </button>
                 </div>
             </form>
