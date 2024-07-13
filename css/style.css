@@ -57,6 +57,11 @@ body {
     font-weight: 500;
     text-decoration: none;
     letter-spacing: 0.02em;
+     /* анімація */
+     transition-property: color;
+     transition-duration: 250ms;
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+     transition-delay: 0;
 }
 
 .header-ul-li-a {
@@ -102,6 +107,14 @@ height: 3px;
 background-color: var(--button-color);
 border-radius: 3px;
 display: block;
+/* анімація */
+transition-property: background-color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-delay: 0;
+}
+.active-link:hover::after{
+background-color: darkblue;
 }
 .header-ul-li-a {
     color: var(--grey-color);
@@ -292,11 +305,16 @@ display: block;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
+     /* анімація */
+     transition-property: background-color, fill;
+     transition-duration: 250ms;
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+     transition-delay: 0;
 }
 
 .svg-list-developers:hover .our-developers-link {
     fill: #FFFFFF;
-    border-radius: 50%;
     background-color: var(--button-color);
 }
 
@@ -409,6 +427,11 @@ display: block;
     align-items: center;
     justify-content: center;
     fill: #AFB1B8;
+    /* анімація */
+    transition-property: fill, border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
 }
 
 .company-link:hover {
@@ -516,6 +539,12 @@ display: block;
     border-radius: 50%;
     fill: #FFFFFF;
     background-color: rgba(255, 255, 255, 0.1);
+    /* анімація */
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+
 }
 
 .follow-link:hover {
