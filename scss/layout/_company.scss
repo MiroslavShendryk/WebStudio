@@ -1,0 +1,46 @@
+.company {
+    padding: 94px 0;
+}
+
+.company-text {
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    color: var(--link-color);
+    margin-bottom: 50px;
+}
+
+.company-list {
+    display: flex;
+    gap: 30px;
+    padding-left: 215px;
+}
+
+.company-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.company-link {
+    width: 170px;
+    height: 92px;
+    display: flex;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    fill: #AFB1B8;
+    /* анімація */
+    transition-property: fill, border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+}
+
+.company-link:hover {
+    fill: var(--button-color);
+    border-color: var(--button-color);
+}

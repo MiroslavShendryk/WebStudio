@@ -1,0 +1,110 @@
+.footer-flex {
+    display: flex;
+}
+
+.footer {
+    background-color: var(--main-color);
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.footer-address .footer-address-ul .footer-address-ul-li-1 .footer-address-ul-li {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-address-ul-li-1 {
+    color: var(--white-color);
+    font-weight: 400;
+    line-height: 1.71;
+    font-style: normal;
+    margin-bottom: 9px;
+}
+
+.footer-address-ul-li-a {
+    color: rgba(255, 255, 255, 0.6);
+    ;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 1.71;
+    font-style: normal;
+}
+
+.footer-address-ul-li-a:hover {
+    color: var(--button-color)
+}
+
+.logo-footer-span {
+    color: var(--white-color);
+}
+
+.logo-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: var(--button-color);
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.footer-address-ul-li:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.div-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.follow {
+    display: flex;
+    margin-left: 70px;
+    flex-direction: column;
+}
+
+.follow-title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 12px;
+}
+
+.follow-list {
+    display: flex;
+    /* justify-content: center; */
+    gap: 10px;
+}
+
+.follow-item {
+    /* text-align: center;
+    align-items: center;
+    justify-content: center; */
+    border-radius: 50%;
+    display: flex;
+}
+
+.follow-link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    fill: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* анімація */
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+
+}
+
+.follow-link:hover {
+    fill: #ffffff;
+    background-color: var(--button-color);
+}
