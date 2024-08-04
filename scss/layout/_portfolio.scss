@@ -1,0 +1,119 @@
+.button-list {
+    margin-bottom: 34px;
+    padding-bottom: 26px;
+    display: flex;
+    gap: 8px;
+
+}
+
+/* .button-item {
+    margin-right: 8px;
+} */
+.portfolio-button {
+    padding: 6px 25px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 162%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--link-color);
+    border: none;
+    border-radius: 4px;
+}
+
+.portfolio-button:active {
+    background-color: var(--buttom-active);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    color: var(--title-work);
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    /* column-gap: 30px;
+    row-gap: 60px; */
+}
+
+.portfolio-item {
+    display: flex;
+    flex-direction: column;
+    /* width: 370px; */
+    flex-basis: calc((100% - 60px) / 3);
+    /* outline: 1px solid tomato; */
+    /* border: 1px solid var(--border-color);
+    border: 1px solid red; */
+
+}
+
+.portfolio-item:hover {
+    box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
+
+.text-box {
+    padding: 20px 24px;
+    border-right: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    flex-grow: 1;
+}
+
+.portfolio {
+    padding-top: 75px;
+    padding-bottom: 94px;
+
+}
+
+/* .portfolio-img {
+    margin-bottom: 20px;
+} */
+
+.portfolio-paragraph {
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 200%;
+    letter-spacing: 0.06em;
+    color: var(--link-color);
+    /* padding-left: 24px; */
+}
+
+.portfolio-text {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    letter-spacing: 0.03em;
+    color: var(--grey-color);
+    /* padding-left: 24px; */
+}
+.div-active {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--button-color);
+    transform: translatey(100%);
+    transition: 250ms ease-in-out;
+    background: rgba(33, 150, 243, 0.9);
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+    padding-left: 24px;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: .03em;
+    color: var(--white-color);
+}
+
+.div-img:hover .div-active {
+    transform: translatey(0);
+}
+
+.div-img {
+    overflow: hidden;
+    position: relative;
+    width: 370px;
+    height: 294px;
+}
